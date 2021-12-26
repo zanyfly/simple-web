@@ -18,9 +18,9 @@ let server = http.createServer((request, response) => {
     let extname = path.split('.').pop();
     console.log("url extname =", extname)
     let map = {
-        'html': 'text\html;charset=utf-8',
-        'css': 'text\css;charset=utf-8',
-        'js': 'text\javascript;charset=utf-8'
+        'html': 'text/html;charset=utf-8',
+        'css': 'text/css;charset=utf-8',
+        'js': 'text/javascript;charset=utf-8'
     }
 
     response.statusCode = 200
