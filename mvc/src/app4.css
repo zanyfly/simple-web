@@ -1,0 +1,19 @@
+#app4 {
+}
+@keyframes change {
+    0% {
+        background: red;
+    }
+    100% {
+        background: blue;
+    }
+}
+#app4 #gradient-circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid red;
+}
+#app4 #gradient-circle.active{
+    animation: change 1s infinite alternate linear;
+}

@@ -27,7 +27,7 @@ getjs.onclick = () => {
 
 getcss.onclick = () => {
     const request = new XMLHttpRequest();
-    request.open("GET", "/style.css"); // readyState = 1
+    request.open("GET", "/app1.css"); // readyState = 1
     request.onreadystatechange = () => {
         console.log(request.readyState);
         // 下载完成，但不知道是成功 2xx 还是失败 4xx 5xx

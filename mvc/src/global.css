@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*::before, *::after {
+    margin: 0px;
+    padding: 0px;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+body {
+    overflow: hidden;
+}
+
+.page {
+    /*border: 1px solid red;*/
+    display: flex;
+    flex-wrap: wrap;
+}

@@ -28,10 +28,10 @@ let server = http.createServer((request, response) => {
         response.setHeader('Content-Type', 'text/javascript;charset=utf-8')
         response.write(fs.readFileSync('public/main.js'))
         response.end()
-    } else if (path === '/style.css') {
+    } else if (path === '/app1.css') {
         response.statusCode = 200
         response.setHeader('Content-Type', 'text/css;charset=utf-8')
-        response.write(fs.readFileSync('public/style.css'))
+        response.write(fs.readFileSync('public/app1.css'))
         response.end()
     } else if (path === '/my.js') {
         response.statusCode = 200

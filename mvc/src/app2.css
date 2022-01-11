@@ -1,0 +1,25 @@
+#app2 {
+    border: 1px solid blue;
+    width: 50vw;
+}
+
+#app2 ul{
+    display: flex;
+}
+#app2 ul>li{
+    width: 50%;
+    border: 1px solid blue;
+}
+
+#app2 ul>li.selected {
+    background: rgb(253, 221, 155);
+    color: white;
+}
+
+#app2 #tabcontent>li.active{
+    display: block;
+}
+#app2 #tabcontent>li {
+    display: none;
+    height: 60px;
+}
